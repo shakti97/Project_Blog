@@ -1,0 +1,151 @@
+
+.sidebar_1{
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.shaktiheading{
+    border-bottom: 2px solid #efefef;
+    color:  rgb(112, 110, 110);
+    padding-bottom: 0.6em;
+    text-align: center;
+}
+ul.shaktiul{
+  list-style: none;
+    margin-right: 30px;
+}
+ul.shaktiul li {
+    padding: 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(112, 110, 110,0.7); 
+}
+.shaktiul li a {
+    text-decoration: none;
+    color: #999;
+}
+.shakticount {
+    font-weight: bold;
+    color: black;
+}
+.shaktitext {
+    color: #999;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-facebook {
+    color: #45619D;
+}
+
+.fa-google-plus {
+    color: #DD5B52;
+}
+
+.fa-pinterest {
+    color: #BE061A;
+}
+
+.fa-linkedin {
+    color: #298EC1;
+}
+
+.fa-behance {
+    color: #056DFA;
+}
+
+.fa-rss {
+    color: #FBA54A;
+}
+
+.shaktibutton {
+    float: right;
+    border: 1px solid;
+    margin-right: 5%;
+}
+
+.twitter {
+    background-color: #55ACEE;
+    border-color: #55ACEE;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.facebook {
+    background-color: #45619D;
+    border-color: #45619D;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.google-plus {
+    background-color: #DD5B52;
+    border-color: #DD5B52;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.pinterest {
+    background-color: #BE061A;
+    border-color: #BE061A;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.linkedin {
+    background-color: #298EC1;
+    border-color: #298EC1;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.behance {
+    background-color: #056DFA;
+    border-color: #056DFA;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.rss {
+    background-color: #FBA54A;
+    border-color: #FBA54A;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+ul li:hover .shaktibutton{
+    padding-right: 10px;
+}
+.sidebar_2{
+    border: 1px solid lightgrey;
+    color: rgb(112, 110, 110);
+    background-color: #fff;
+}
+@media (max-width: 998px){
+    .shaktibutton{
+        display: none;
+    }
+    .shaktiheading{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 768px ){
+    .icon{
+        font-size: 25px;
+    }
+    ul.shaktiul li{
+        display: inline-block;
+        border: none;
+    }
+}
+
